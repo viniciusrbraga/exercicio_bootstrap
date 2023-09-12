@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;      
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h2 {
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+
+.display-1 {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.display-6 {    
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+form label {
+    margin-top: 24px;
+}
+
+.btn-success {
+    margin-top: 24px;    
+    width: 10%;
+}
